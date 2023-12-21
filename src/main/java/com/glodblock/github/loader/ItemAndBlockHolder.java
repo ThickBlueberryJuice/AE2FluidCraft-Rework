@@ -129,7 +129,7 @@ public class ItemAndBlockHolder {
             NameConst.ITEM_SINGULARITY_FLUID_STORAGE,
             Long.MAX_VALUE / (singleByteAmount * 2),
             8,
-            1,
+            5,
             5).register();
     public static ItemCreativeFluidStorageCell CREATIVE_CELL = new ItemCreativeFluidStorageCell().register();
     public static ItemBasicFluidStoragePart CELL_PART = new ItemBasicFluidStoragePart().register();
